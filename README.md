@@ -8,4 +8,4 @@ Wenn die IP, Hostname oder ein String im Hostname ein bestimmter ist, exit!
 
 <h3>Installation</h3>
 
-Den Inhalt von exit_if_bad.php an den Anfang der eigenen index.php stellen oder in allen Dateien inkludieren, die schon bekannt sein könnten.
+Den Inhalt von <a href="https://raw.githubusercontent.com/abakad/exit/master/exit_if_bad.php">exit_if_bad.php</a> an den Anfang der eigenen index.php stellen oder in allen Dateien inkludieren, die schon bekannt sein könnten.
