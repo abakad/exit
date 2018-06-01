@@ -1,6 +1,6 @@
 # exit
 
-Ein simples PHP-Skript zum eigenen Schutz vor unerwünschen Crawlern von bestimmten Webseitenbesuchern. Als Beispiel wurden hier zufällig gefundene Adressen verwendet, die als Anschauungsbeispiel dienen, wie das Skript zu verwenden ist.
+Ein simples PHP-Skript zum eigenen Schutz vor unerwünschten Crawlern von bestimmten Webseitenbesuchern. Als Beispiel wurden hier zufällig gefundene Adressen verwendet, die als Anschauungsbeispiel dienen, wie das Skript zu verwenden ist.
 
 <h3>Die Vorgehensweise des Skripts</h3>
 
