@@ -4,6 +4,9 @@
 
 function exit_if_bad_host()
 {
+	// Hier stellt man ein, welche Methoden
+	// man verwenden möchte (1) oder nicht (0)
+	
 	$use_ips       = 1;
 	$use_blocks    = 1;
 	$use_hostnames = 1;
@@ -11,7 +14,7 @@ function exit_if_bad_host()
 
 	$bad_ips = array_fill_keys(array(
 
-		// Hier sind IPs
+		// Hier sind die einzelnen IPs
 		// Achtung, IPs Ausschliessen auf eigene Gefahr
 
 		'81.209.177.136',
@@ -23,7 +26,7 @@ function exit_if_bad_host()
 
 	$bad_blocks = array(
 
-		// Hier sind IPs
+		// Hier sind IP-Bloecke
 		// Achtung, IP-Bloecke Ausschliessen auf eigene Gefahr
 		
 		[ '81.209.177.0', '81.209.178.127' ],
@@ -32,11 +35,11 @@ function exit_if_bad_host()
 
 	$bad_hostnames = array_fill_keys(array(
 
-
 		// Hier sind vollstaendige Hostnamen
 		// Bei ehrlichen Crawlern zuverlaessiger
 		// Bei unehrlichen Crawlern Ausschluss von IPs erwaegen
 
+		'netestate.de',
 		'bardolino1.netestate.de',
 		'bardolino.netestate.de',
 		'vinsanto.netestate.de',
@@ -56,7 +59,7 @@ function exit_if_bad_host()
 	// IP-Adresse bekommen
 	$remote_ip = $_SERVER['REMOTE_ADDR'];
 
-	// --------------------------
+	// ------------
 	// Einzelne IPs
 
 	if($use_ips)
@@ -68,7 +71,7 @@ function exit_if_bad_host()
 		}
 	}
 
-	// --------------------------
+	// -------
 	// Bloecke
 
 	if($use_blocks)
@@ -99,7 +102,7 @@ function exit_if_bad_host()
 	// Hostname nachschauen
 	$remote_hostname = gethostbyaddr($remote_ip);
 
-	// ...wenn das funktioniert hat
+	// ... wenn das funktioniert hat
 	if($remote_hostname != $remote_ip)
 	{
 		// ---------------
