@@ -4,7 +4,7 @@ Ein simples PHP-Skript zum eigenen Schutz vor unerwünschten Crawlern von bestim
 
 <h3>Die Vorgehensweise des Skripts</h3>
 
-Wenn die IP, der Hostname oder ein String im Hostnamem ein bestimmter ist, exit!
+Wenn die IP, der Hostname oder ein String im Hostnamen ein bestimmter ist, exit!
 
 <h3>Installation</h3>
 
