@@ -64,7 +64,7 @@ function exit_if_bad_host()
 
 	if($use_ips)
 	{
-		// badn IPs nicht antworten
+		// Bad IP nicht antworten
 		if($bad_ips[$remote_ip])
 		{
 			exit;
