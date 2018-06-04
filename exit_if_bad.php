@@ -21,6 +21,8 @@ function exit_if_bad_host()
 		'81.209.177.145',
 		'81.209.177.16',
 		'81.209.177.189',
+		'81.209.177.95',
+		'138.201.30.176',
 
 		), 1);
 
@@ -44,6 +46,7 @@ function exit_if_bad_host()
 		'bardolino.netestate.de',
 		'vinsanto.netestate.de',
 		'bardolino2.netestate.de',
+		'website-datenbank.de',
 
 		), 1);
 
